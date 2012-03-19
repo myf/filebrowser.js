@@ -6,7 +6,8 @@ var sys = require('util'),
     path = require("path"),  
     //async = require('async'),
     fs = require("fs"),
-    pwd = process.argv.splice(2);
+    //pwd = process.argv.splice(2);
+    pwd = process.cwd()
 
 
 //getting output from a command issued
